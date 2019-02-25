@@ -40,5 +40,9 @@ request
     if (!fs.existsSync(path.join(binDir, 'torrent-thread')))
       fs.mkdirSync(path.join(binDir, 'torrent-thread'));
 
-    fs.rename(pkg, path.join(binDir, 'torrent-thread', 'torrent-thread' + (platform == 'win' ? '.exe' : '')));
+    var newPath = path.join(binDir, 'torrent-thread', 'torrent-thread' + (platform == 'win' ? '.exe' : ''))
+
+    fs.rename(pkg, newPath, function() {
+      fs.chmodSync(newPath, '755')
+    })
   })
