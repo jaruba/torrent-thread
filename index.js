@@ -25,6 +25,5 @@ if (fs.existsSync(path.join(torrentThread, fileName)))
   torrentThread = path.join(torrentThread, fileName)
 
 module.exports = function(port) {
-  child.exec('"' + torrentThread + '" --powPort=' + port);
-  return child
+  return child.exec('"' + torrentThread + '" --powPort=' + port)
 }
