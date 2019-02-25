@@ -1,0 +1,23 @@
+{
+  "name": "torrent-thread",
+  "version": "0.0.1",
+  "description": "Torrent Thread for a fork of Torrent Worker",
+  "main": "index.js",
+  "author": "Branza Alexandru <branza.alex@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "request": "2.65.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaruba/duti-prebuilt.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaruba/duti-prebuilt/issues",
+    "email": "branza.alex@gmail.com"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  }
+}
