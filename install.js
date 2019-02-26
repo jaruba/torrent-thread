@@ -43,6 +43,7 @@ request
     var newPath = path.join(binDir, 'torrent-thread', 'torrent-thread' + (platform == 'win' ? '.exe' : ''))
 
     fs.rename(pkg, newPath, function() {
-      fs.chmod(newPath, '755')
+      if (process.platform != 'win32')
+        fs.chmod(newPath, '755')
     })
   })
