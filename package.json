@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jaruba/duti-prebuilt.git"
+    "url": "http://github.com/jaruba/torrent-thread.git"
   },
   "bugs": {
-    "url": "http://github.com/jaruba/duti-prebuilt/issues",
+    "url": "http://github.com/jaruba/torrent-thread/issues",
     "email": "branza.alex@gmail.com"
   },
   "scripts": {
