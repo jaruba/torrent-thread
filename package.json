@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "request": "2.65.0"
+    "request": "2.88.0"
   },
   "repository": {
     "type": "git",
