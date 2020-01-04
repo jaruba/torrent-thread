@@ -17,8 +17,8 @@ else
 
 let arch
 
-if (['ia32', 'x32'].indexOf(process.arch) > -1)
-  arch = 'x32'
+if (['ia32', 'x86'].indexOf(process.arch) > -1)
+  arch = 'x86'
 else
   arch = 'x64'
 
