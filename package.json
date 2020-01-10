@@ -1,6 +1,6 @@
 {
   "name": "torrent-thread",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Torrent Thread for a fork of Torrent Worker",
   "main": "index.js",
   "author": "Branza Alexandru <branza.alex@gmail.com>",
