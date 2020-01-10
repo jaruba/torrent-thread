@@ -3,7 +3,7 @@ var fs = require('fs')
 var path = require('path');
 
 var user = 'jaruba'
-var tag = '0.0.1'
+var tag = '0.0.2'
 var repoName = 'torrent-thread'
 
 let platform
