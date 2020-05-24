@@ -44,6 +44,6 @@ request
 
     fs.rename(pkg, newPath, function() {
       if (process.platform != 'win32')
-        fs.chmod(newPath, '755')
+        fs.chmod(newPath, '755', function() {})
     })
   })
